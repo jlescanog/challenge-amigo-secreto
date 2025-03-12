@@ -23,5 +23,11 @@ function actualizarLista () {
         let li = document.createElement('li');
         li.textContent = amigos[i];
         lista.appendChild(li);
+    };
+}
+
+function sortearAmigo() {
+    if (amigos.length > 0) { 
+        sorteaNumero();
     }
 }
