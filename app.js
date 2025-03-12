@@ -29,5 +29,17 @@ function actualizarLista () {
 function sortearAmigo() {
     if (amigos.length > 0) { 
         sorteaNumero();
-    }
+    };
+}
+
+function sorteaNumero() {
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length); // Genera un índice válido
+    let amigoSorteado = amigos[indiceAleatorio]; // Obtiene el amigo en esa posición
+    
+    let resultadoLista = document.getElementById("resultado");
+    resultadoLista.innerHTML = ""; // Limpia la lista antes de mostrar el nuevo resultado
+
+    let li = document.createElement("li");
+    li.textContent = `El amigo sorteado es: ${amigoSorteado}`;
+    resultadoLista.appendChild(li); // Agrega el resultado a la lista <ul>
 }
