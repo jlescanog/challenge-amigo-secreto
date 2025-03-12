@@ -2,13 +2,16 @@
 let listaAmigos = [];
 
 function agregarAmigo() {
-    let amigoIngresado = document.getElementById('amigo').value;
-    //verificar si el campo está vacío
-    if  (amigoIngresado === '') {
+    let inputAmigo = document.getElementById('amigo');
+    let amigoIngresado = inputAmigo.value;
+    // Verifica si el campo está vacío
+    if (amigoIngresado === "") {  
         alert("Por favor, inserte un nombre.");
     } else {
         listaAmigos.push(amigoIngresado);
-        console.log(listaAmigos);   
-    };
+        console.log(listaAmigos);
+        inputAmigo.value = "";  // Limpia el campo de entrada
+    }
 }
+
 
