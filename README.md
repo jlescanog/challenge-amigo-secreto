@@ -15,7 +15,7 @@ Incorporar más funcionalidades, como un sistema de puntuación o rankings.
 Implementar pruebas unitarias para garantizar la calidad del código.
 Mejorar la accesibilidad para usuarios con discapacidades.
 🌐 Demo en vivo
-Puedes probar el juego en este enlace: (temp)
+Puedes probar el juego en este enlace: (https://jlescanog.github.io/challenge-amigo-secreto/)
 
 📝 Cómo contribuir
 Si tienes ideas para mejorar este proyecto o deseas colaborar, ¡estás más que bienvenido!
